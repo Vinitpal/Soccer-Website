@@ -14,43 +14,56 @@
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css"
     />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="icon" type="image/svg+xml" href="./assets/Images/logo.svg" />
     <title>Manchester United Website</title>
 
     <style>
       * {
         box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      :root {
+        --primary-color: #c70101;
+        --secondary-color: #fff22d;
+        --white-color: #fffffe;
+      }
+
+      body {
         padding: 0;
         margin: 0;
-        font-family: "Poppins", sans-serif;
       }
     </style>
   </head>
   <body>
     <nav>
       <!-- logo + links -->
-      <div>
+      <div class="navlinks">
         <a href="index.html">
-          <img src="images/manutd.png" alt="Manchester United Logo" />
+          <img
+            class="logo"
+            src="./assets/Images/logo.svg"
+            alt="Manchester United Logo"
+          />
         </a>
         <div>
-          <p>Videos</p>
-          <p>News</p>
-          <p>Shop</p>
-          <p>Fixtures</p>
-          <p>Players</p>
-          <p>Tickets</p>
+          <a>Videos</a>
+          <a>News</a>
+          <a>Shop</a>
+          <a>Fixtures</a>
+          <a>Players</a>
+          <a>Tickets</a>
         </div>
       </div>
       <!-- Searchbar at corner -->
-      <div>
-        <form>
-          <input type="text" placeholder="Search..." />
-          <button type="submit">
-            <i class="fa fa-search"></i>
-          </button>
-        </form>
-      </div>
+      <form class="searchbar-container">
+        <input type="text" placeholder="Search..." autocomplete="false" />
+        <button type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
     </nav>
 
     <!-- Hero section -->
