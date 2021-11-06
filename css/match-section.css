@@ -96,10 +96,7 @@
   }
 
   .match-section .match-teams {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2rem 0;
+    text-align: center;
   }
 
   .match-section .match-teams h1 {
