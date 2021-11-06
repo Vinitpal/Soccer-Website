@@ -33,3 +33,22 @@
 .hero-section .hero-text .bottom-line span {
   margin: 5px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero-section .hero-text h1 {
+    font-size: 1.7rem;
+  }
+
+  .bottom-line span {
+    font-size: 14px;
+  }
+
+  .bottom-line span {
+    font-size: 14px;
+  }
+
+  .bottom-line i {
+    font-size: 14px;
+  }
+}
