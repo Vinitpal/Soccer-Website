@@ -103,17 +103,17 @@
   }
 
   .match-section .match-teams h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .match-section .match-teams p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .match-section .match-teams img {
     margin: 0 0.5rem;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
 
   .match-section button {

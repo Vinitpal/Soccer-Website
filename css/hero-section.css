@@ -40,6 +40,11 @@
     font-size: 1.7rem;
   }
 
+  .hero-section .hero-section-2-text h1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
   .bottom-line span {
     font-size: 14px;
   }

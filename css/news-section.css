@@ -265,10 +265,6 @@
   }
 
   .news-section .small-news-container .small-news .news-info {
-    max-height: 170px;
-  }
-
-  .news-section .small-news-container .small-news .news-info {
-    max-height: 170px;
+    max-height: 180px;
   }
 }
