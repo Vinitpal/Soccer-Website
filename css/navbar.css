@@ -5,6 +5,9 @@ nav {
   padding: 0.5rem 0.5rem 0.2rem;
   background: var(--primary-color);
   color: #fffffe;
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
 nav .navlinks {
